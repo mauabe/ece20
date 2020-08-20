@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 import Carousel from './Carousel'
 
@@ -16,14 +16,14 @@ class Home extends Component{
 		// console.log('%c STATE at HOME constructor ', 'color:black;background:skyblue;padding:6px;border:2px  black', this.state);
   }
 
-  renderPlaceholder = () => {
-    return (<div>
-      <div className="placeholder" >
-        <h3><Link to="/features/chair" > Electrical and Computer Engineering </Link></h3>
-      </div>
-    </div>);
+  // renderPlaceholder = () => {
+  //   return (<div>
+  //     <div className="placeholder" >
+  //       <h3><Link to="/features/chair" > Electrical and Computer Engineering </Link></h3>
+  //     </div>
+  //   </div>);
   // {this.renderPlaceholder()}
-  }
+  // }
 
   render() {
     return (

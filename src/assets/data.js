@@ -1,12 +1,6 @@
-// import {zip} from 'lodash.zip';
-// import {zip} from 'lodash';
-
-// export const topMenuLinks = ['features', 'highlights', 'students', 'faculty', 'overview', 'alumni'];
-// export const topMenuLabels = ['Department News', 'Faculty Highlights', 'Students & Teaching', 'ECE Faculty', 'Department Overview', 'Alumni & Partnerships'];
-// export const topMenu = zip(topMenuLinks, topMenuLabels);
 export const topMenu = [['features', 'Department News'], ['highlights', 'Faculty Highlights'], ['students', 'Students & Teaching'], ['faculty', 'ECE Faculty'], ['overview', 'Department Overview'], ['alumni', 'Alumni & Partnerships']];
 
-console.log('topMenu zip from lodash:', topMenu)
+// console.log('topMenu zip from lodash:', topMenu)
 
 
 export const subMenus = {
@@ -55,8 +49,7 @@ export const slides = [
     title: "Stop Trying to Be Productive",
     subtitle: "Then quarantine way",
     description: "The internet wants you to believe you aren’t doing enough with all that “extra time” you have now.",
-    image:
-    "https://images.unsplash.com/profile-1441298803695-accd94000cac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64&s=5a9dc749c43ce5bd60870b129a40902f",
+    image: "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
     link: "/2019-2020/feature4"
   },
   {
@@ -71,8 +64,8 @@ export const slides = [
     title: "Keep working Harder!",
     subtitle: "Tennessee school districts tell their teachers to keep it going",
     description: "'What virus?', they say",
-    image: "./assets/images/mask.jpg",
-    link: "/2019-2020/feature5"
+    image: "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    link: "/2019-2020/feature6"
   }
 ];
 

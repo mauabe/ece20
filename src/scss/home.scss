@@ -2,23 +2,44 @@
 @import "./variables.scss";
 
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+// html,
 // body {
 //   height: 100%;
 //   width: 100%;
-//   // display: flex;
+//   margin: 0;
+//   padding: 0;
+//   // font-size: 3vmin;
+// }
+
+// html {
+//   background: #151515;
+//   color: #fff;
+//   overflow: hidden;
+// }
+
+// body {
+//   display: flex;
 //   justify-content: center;
 //   align-items: center;
 // }
 
+
 .home-container {
   // width: 100%;
-  // height: 100%;
-  // transition: opacity .8s ease-out 0.5s;
+  height: 100%;
+  transition: opacity .8s ease-out 0.5s;
   // justify-content: center;
-  // font-size: 3vmin;
   // padding-top: 20rem;
   // padding-bottom: 10rem;
-  transition: opacity 0.7s ease-in-out 0.3s;
+  // font-size: 3vmin;
+  // transition: opacity 0.7s ease-in-out 0.3s;
   transition-delay: 0.5s;
 }
 
@@ -29,7 +50,7 @@
   }
 
   > button {
-    // appearance: none;
+    appearance: none;
     background: transparent;
     border: none;
     color: white;
@@ -51,10 +72,10 @@
     }
 
     &:first-child {
-      left: -10%;
+      left: -30%;
     }
     &:last-child {
-      right: 10%;
+      right: -30%;
     }
   }
 }
@@ -69,6 +90,7 @@
   //     opacity: 1;
   //   }
   // }
+
 }
 
 .slideContent {
@@ -92,18 +114,19 @@
   transform-style: preserve-3d;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
-  text-shadow: 0 0.1rem 1rem #000;
+  text-shadow: 0 0.2rem 1rem #000;
   opacity: 0;
 
   .slideSubtitle,
   .slideTitle {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: normal;
     letter-spacing: 0.2ch;
     text-transform: uppercase;
-    margin: 0.2rem;;
+    margin: 1rem;;
     opacity: 0.9;
+    background: transparent;
   }
 
   .slideSubtitle::before {
@@ -111,16 +134,17 @@
   }
 
   .slideTitle {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 1rem;
     opacity: 0.8;
   }
 
   .slideDescription {
-    margin: 10;
+    margin: 1rem;
+    margin: 20;
     color: white;
-    opacity: 0.9;
-    font-size: 0.8rem;
+    opacity: 1;
+    font-size: 1rem;
     letter-spacing: 0.2ch;
   }
 }
@@ -158,6 +182,7 @@
     --x: calc(var(--px) - 0.5);
     --y: calc(var(--py) - 0.5);
     opacity: 1;
+    color: white;
 
     transform: perspective(1000px);
 

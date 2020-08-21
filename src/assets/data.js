@@ -25,16 +25,14 @@ export const slides = [
     title: "Covid-19 Pandemic Stops Everything",
     subtitle: "Professor helps students from home",
     description: "The internet is helping education",
-    image:
-    "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image:  "/img/covid-coronavirus2.jpg",
     link: "/2019-2020/feature1"
   },
   {
     title: "Coronavirus in the World",
     subtitle: "After a substantial reduction in cases, the virus roars anew in France.",
     description: "Welcome to College. Now Quarantine.",
-    image:
-    "https://images.unsplash.com/photo-1566522650166-bd8b3e3a2b4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image:  "/img/covid-coronavirus2.jpg",
     link: "/2019-2020/feature2"
   },
   {
@@ -42,22 +40,21 @@ export const slides = [
     subtitle: "Social distancing saves lives, so does technology",
     description: "The smaller the better.",
     image:
-    "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    "/img/covid-coronavirus2.jpg",
     link: "/2019-2020/feature3"
   },
   {
     title: "Stop Trying to Be Productive",
     subtitle: "Then quarantine way",
     description: "The internet wants you to believe you aren’t doing enough with all that “extra time” you have now.",
-    image: "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image: "/img/covid-coronavirus2.jpg",
     link: "/2019-2020/feature4"
   },
   {
     title: "Keep working!",
     subtitle: "Tennessee school districts tell their teachers to keep it going",
     description: "'What virus?', they say",
-    image:
-      "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image:"/img/covid-coronavirus2.jpg",
       link: "/2019-2020/feature5"
   },
   {

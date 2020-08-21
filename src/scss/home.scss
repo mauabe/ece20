@@ -190,7 +190,7 @@
       transition: transform 0.1s ease-in-out;
       transform: perspective(1000px)
         rotateX(calc(var(--y) * -5deg))
-        rotateY(calc(var(--x) * 35deg));
+        rotateY(calc(var(--x) * 15deg));
     }
   }
 }
